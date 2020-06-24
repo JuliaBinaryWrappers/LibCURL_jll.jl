@@ -80,8 +80,6 @@ function __init__()
     foreach(p -> append!(PATH_list, p), (LibSSH2_jll.PATH_list, MbedTLS_jll.PATH_list, Zlib_jll.PATH_list, nghttp2_jll.PATH_list,))
     foreach(p -> append!(LIBPATH_list, p), (LibSSH2_jll.LIBPATH_list, MbedTLS_jll.LIBPATH_list, Zlib_jll.LIBPATH_list, nghttp2_jll.LIBPATH_list,))
 
-    # Lastly, we need to add to LIBPATH_list the libraries provided by Julia
-    append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
     global cacert_path = normpath(joinpath(artifact_dir, cacert_splitpath...))
 
     global cacert = cacert_path
@@ -99,12 +97,5 @@ function __init__()
     filter!(!isempty, unique!(PATH_list))
     filter!(!isempty, unique!(LIBPATH_list))
     global PATH = join(PATH_list, ':')
-    global LIBPATH = join(LIBPATH_list, ':')
-
-    # Add each element of LIBPATH to our DL_LOAD_PATH (necessary on platforms
-    # that don't honor our "already opened" trick)
-    #for lp in LIBPATH_list
-    #    push!(DL_LOAD_PATH, lp)
-    #end
-end  # __init__()
+    global LIBPATH = join(vcat(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)]), ':'))            end  # __init__()
 
