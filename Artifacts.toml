@@ -1,161 +1,161 @@
 [[LibCURL]]
 arch = "aarch64"
-git-tree-sha1 = "b8af834942bf697efbbe5517679ab62d9eb9f367"
+git-tree-sha1 = "87a0a8bf4b8a5e8c0b1fb6d3a0825ec7b87609b3"
 os = "macos"
 
     [[LibCURL.download]]
-    sha256 = "63e88a2cc196e5ec1b90b0ea396190482801875beccf7a0a69b80b59c32c5dcb"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "a0e3ee51ee1dcd70729bad2f7e4e90f7607faba4e5bbaaa402f065ea2a4593e6"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.aarch64-apple-darwin.tar.gz"
 [[LibCURL]]
 arch = "aarch64"
-git-tree-sha1 = "d808ac2bbbe672cd85714f4a3f68b2068a63bca8"
+git-tree-sha1 = "2ab112f84f3a0bb5d95142822618d06087e578e0"
 libc = "glibc"
 os = "linux"
 
     [[LibCURL.download]]
-    sha256 = "3f490c3b4146a34d32b482b913523753eea07ac10e96a9c4975f8854de2cdc9a"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "3474b5196f7905cb28ddd55237bd0e153d4a30da627daee86b6fb61873511367"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.aarch64-linux-gnu.tar.gz"
 [[LibCURL]]
 arch = "aarch64"
-git-tree-sha1 = "c3ea04ab09aa567325bc0eb69442a473b2e9dfb0"
+git-tree-sha1 = "86aceafead5babfcabb5958725d7817ab5efe6ec"
 libc = "musl"
 os = "linux"
 
     [[LibCURL.download]]
-    sha256 = "e3b2ba31b6bbbf751dad2f765805294e3bae8d3decc34dc0ca99f571d1f8817b"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.aarch64-linux-musl.tar.gz"
+    sha256 = "d5d7a15a25a9addd048b474881943ae0badd2898ebb62034b84701ceb3e80e04"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.aarch64-linux-musl.tar.gz"
 [[LibCURL]]
 arch = "aarch64"
-git-tree-sha1 = "09a27cd089a0e00c7c2b917e38c58c8fb15e072d"
+git-tree-sha1 = "21253274cc1d048eea75c8cde5ea24637de09344"
 os = "freebsd"
 
     [[LibCURL.download]]
-    sha256 = "b0cc991b6e5fd95cc54edbad65bce21fa85e50819dd6bbe33454168ba15727a0"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.aarch64-unknown-freebsd.tar.gz"
+    sha256 = "2fc5ca3ac7bfb0d252fc698d4ebdd45c98bbd23db7854d7fc97e07e0dc1083d1"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.aarch64-unknown-freebsd.tar.gz"
 [[LibCURL]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "d793cb91df82104dccdcdb6ed3e861e9a7a54ded"
+git-tree-sha1 = "03f8fd13b0723e42d55a3284dae166a3a2a29f04"
 libc = "glibc"
 os = "linux"
 
     [[LibCURL.download]]
-    sha256 = "8f38261d90535a100d1c2f876dfbeb49797d296ddfe14973acb5e1d8ccb97d4f"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "2abf41c6f267c4aaadddf55481b2dfecf038b5b1fcf87000e4ef2bfd16637964"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.armv6l-linux-gnueabihf.tar.gz"
 [[LibCURL]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "db49c7a6f8007f7840e7ff25dc1971389323a587"
+git-tree-sha1 = "f29050b8f4bb76ba26f43dbfdcd8ca08806be3da"
 libc = "musl"
 os = "linux"
 
     [[LibCURL.download]]
-    sha256 = "27b595ef8c8fa2d494ca43df6559a813ad974c01e4581aa1fa3698d02f7747c7"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "0c361e6f9eaa236cdad01f0fcf9abd132c050741b99977da549b4871175686c7"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.armv6l-linux-musleabihf.tar.gz"
 [[LibCURL]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "c9d31e10c6e63ba1d5cd83c263fbeb15deb66af4"
+git-tree-sha1 = "1fbf21eb601915176b95f146aaa2554ace95dd59"
 libc = "glibc"
 os = "linux"
 
     [[LibCURL.download]]
-    sha256 = "50279b314bcea8753433611b142520caa12f40c9b21becf24fe8bd8b1fe4e857"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "96e1ba9d5d13e5978502df3b80c803d8a79749cbb55302d6c6396b35e1abd394"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.armv7l-linux-gnueabihf.tar.gz"
 [[LibCURL]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "c982a9d439d81b1e7ec08d6bc181657528f0730b"
+git-tree-sha1 = "2d505659fa68e53fdfb203535da97f376b7549a1"
 libc = "musl"
 os = "linux"
 
     [[LibCURL.download]]
-    sha256 = "c2dfea55727b9c07da15ee4e2bbfaa90aaea88389c47e8f51e3da2eba5c66824"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "45d4acdfbbdf15462c2989b3bab2185f40ba00a169c03251d86c525a240674fd"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.armv7l-linux-musleabihf.tar.gz"
 [[LibCURL]]
 arch = "i686"
-git-tree-sha1 = "27e935feaed84f48d2af0e55040807f7c4c71429"
+git-tree-sha1 = "fe9fdb1908c1af06a5c1ffdccbabd6414026e82e"
 libc = "glibc"
 os = "linux"
 
     [[LibCURL.download]]
-    sha256 = "e9f1deb0eab142061f83ab1fdb8393a0dac040ba2cb100238d9440e710d33216"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.i686-linux-gnu.tar.gz"
+    sha256 = "5f83e37524cd10028c11f1b4f0f49eb5bc87888d3a5ab683c3e8151b20fca270"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.i686-linux-gnu.tar.gz"
 [[LibCURL]]
 arch = "i686"
-git-tree-sha1 = "a8b061ea7b1c2d11031acbdff5c3876c69c59fda"
+git-tree-sha1 = "9d64ee775317da0f530418533df27498e2f0db3f"
 libc = "musl"
 os = "linux"
 
     [[LibCURL.download]]
-    sha256 = "ceb8d17f31be0590d75c6200ec40e256769181b0f06ebad50db1f0227f083f50"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.i686-linux-musl.tar.gz"
+    sha256 = "a0329c0c725cd8d18ce7706e16bb66ebc36d2c8130b9c494e7bc5b4a43e4004b"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.i686-linux-musl.tar.gz"
 [[LibCURL]]
 arch = "i686"
-git-tree-sha1 = "a1b9828461c9addf2e71d3f33460291555210c6b"
+git-tree-sha1 = "81aeafb999911efd40eab30b6f51dfc2f5c07468"
 os = "windows"
 
     [[LibCURL.download]]
-    sha256 = "df42e6a1ecef9c7be5bc1e58098748e272d81e8ab2c3768bdb53a12a5a50450a"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.i686-w64-mingw32.tar.gz"
+    sha256 = "910d564a7a5c52e9b3e0c36eab286dd5558802a8e37643a2dd9b4ab09524b1b1"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.i686-w64-mingw32.tar.gz"
 [[LibCURL]]
 arch = "powerpc64le"
-git-tree-sha1 = "fa6803e2b308177da3f2f3bce20a41fe39d84322"
+git-tree-sha1 = "a18fc5e898153c2f95d815ea53be9902113b12d4"
 libc = "glibc"
 os = "linux"
 
     [[LibCURL.download]]
-    sha256 = "daf0f135f2ed17063c2a7c4bde2e0fef089889a3220003e6af902131079654f2"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "1066c99a5be391df6c6f6d0cd81a1b662106e813e3da29f3093948773aea1a64"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.powerpc64le-linux-gnu.tar.gz"
 [[LibCURL]]
 arch = "x86_64"
-git-tree-sha1 = "dccc19d9e97e05cf9a5847fbd6f3e382ec3270b3"
+git-tree-sha1 = "e4981c34f18f0b3349139221154c32518f8e2534"
 os = "macos"
 
     [[LibCURL.download]]
-    sha256 = "ac5c9bc0be29cb61af542aceaf7e29e63eeaa3cad4998037cb9dcbb69a436cf7"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "c6775bcb49ea270aa006c5c09eaa6f0394bced3853f7a617dc5ebef1c2946d84"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.x86_64-apple-darwin.tar.gz"
 [[LibCURL]]
 arch = "x86_64"
-git-tree-sha1 = "aacf2bb184e7c792d3c7605504b4e0c7348f58dd"
+git-tree-sha1 = "32e093665053ae692bba98cff9d0cfe6557a7d20"
 libc = "glibc"
 os = "linux"
 
     [[LibCURL.download]]
-    sha256 = "426e38cf403b19ab7e57fed4247b8580d063de96433226279e40a875fa19751a"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "0e952396fff07c9c5e23e51b82eb2750245c06400f81719a65301783f48ca076"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.x86_64-linux-gnu.tar.gz"
 [[LibCURL]]
 arch = "x86_64"
-git-tree-sha1 = "11c0ed13ba708bdb8d2bf62473466bd95a6180a4"
+git-tree-sha1 = "ee5ce7937d92c1cd95a4d91badb47f7a09597a30"
 libc = "glibc"
 os = "linux"
 sanitize = "memory"
 
     [[LibCURL.download]]
-    sha256 = "f9df7f2bf8fe6fc50d4b520a3e5c1df27fa4f8112a820aa8a40cd70150746998"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.x86_64-linux-gnu-sanitize+memory.tar.gz"
+    sha256 = "6f6c082c569bf2300dd256b70f03af5202ec14287173f10d2ebe25e861326355"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.x86_64-linux-gnu-sanitize+memory.tar.gz"
 [[LibCURL]]
 arch = "x86_64"
-git-tree-sha1 = "c066a3463fdf028fb27f78f1653673b447ca4373"
+git-tree-sha1 = "50b0a37e3c68111eaf6a18eb9c31d9a63e4ad407"
 libc = "musl"
 os = "linux"
 
     [[LibCURL.download]]
-    sha256 = "6277371acfecd13d936d16596945569015a2c753e23cb95b630cf21c48fa7089"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.x86_64-linux-musl.tar.gz"
+    sha256 = "5da090fee15c339de0b5e08a60c72761b060554105d057fe168f42f431b1cb0e"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.x86_64-linux-musl.tar.gz"
 [[LibCURL]]
 arch = "x86_64"
-git-tree-sha1 = "ddf0f461654395972f91ac1ebb15f7997f0d439f"
+git-tree-sha1 = "fde6df54d70b1d02ab3326f727a8db638324f4ae"
 os = "freebsd"
 
     [[LibCURL.download]]
-    sha256 = "a963985668bb3ba20a2ea83f3673bb3caf323862c4e23a5148591b7ece0621fb"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "af2d515a3e303c1c7c1d2f06022a5fc03178bb04fe91b6f4aa87aa58d96fe005"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.x86_64-unknown-freebsd.tar.gz"
 [[LibCURL]]
 arch = "x86_64"
-git-tree-sha1 = "546dced1394443d1f22325ef702a5d88787ce7f9"
+git-tree-sha1 = "076b07d29591bbc91f64cccb506f73d1d89c68ad"
 os = "windows"
 
     [[LibCURL.download]]
-    sha256 = "d5c2987f1cf18dbe3301f4179faebab37a6a47e5e5d6250ef6060f0a03385557"
-    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.0+0/LibCURL.v8.11.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "1b3c95fa5b814912c7722a76070a9c440e85dbbad689984dab173b086e3fb9c4"
+    url = "https://github.com/JuliaBinaryWrappers/LibCURL_jll.jl/releases/download/LibCURL-v8.11.1+0/LibCURL.v8.11.1.x86_64-w64-mingw32.tar.gz"
