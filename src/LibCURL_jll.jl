@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("LibCURL")
-JLLWrappers.@generate_main_file("LibCURL", UUID("deac9b47-8bc7-5906-a0fe-35ac56dc84c0"))
+JLLWrappers.@generate_main_file("LibCURL", Base.UUID("deac9b47-8bc7-5906-a0fe-35ac56dc84c0"))
 end  # module LibCURL_jll
